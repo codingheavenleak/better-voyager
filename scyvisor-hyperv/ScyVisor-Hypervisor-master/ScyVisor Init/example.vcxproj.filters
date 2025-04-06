@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Utilities">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Utilities\util">
+      <UniqueIdentifier>{a575c9e1-1d0c-410a-8456-2743e2f93f86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utilities\drv">
+      <UniqueIdentifier>{da24e6bc-2551-48b9-b401-4ad2f3c0c205}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="LoadFile">
+      <UniqueIdentifier>{1f5442cc-2248-4776-9ab4-55ec5286bec2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LoadFile\Client">
+      <UniqueIdentifier>{00469550-dfe1-4bf4-996b-3784367984e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LoadFile\Cryptography">
+      <UniqueIdentifier>{73266a53-f064-43b3-b5b2-f3d5306e8b34}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LoadFile\Request">
+      <UniqueIdentifier>{ad007ddc-88e2-4bf3-b3b9-5642f4ea94c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mapper">
+      <UniqueIdentifier>{713aea20-d800-41a3-bf6d-363cb06dbc3e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="vdm_ctx\vdm_ctx.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="driver.cpp">
+      <Filter>Utilities\drv</Filter>
+    </ClCompile>
+    <ClCompile Include="client.cpp">
+      <Filter>LoadFile\Client</Filter>
+    </ClCompile>
+    <ClCompile Include="cryptography.cpp">
+      <Filter>LoadFile\Cryptography</Filter>
+    </ClCompile>
+    <ClCompile Include="reqeust.cpp">
+      <Filter>LoadFile\Request</Filter>
+    </ClCompile>
+    <ClCompile Include="mapper.cpp">
+      <Filter>mapper</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="libvoyager.hpp">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="util\nt.hpp">
+      <Filter>Utilities\util</Filter>
+    </ClInclude>
+    <ClInclude Include="util\util.hpp">
+      <Filter>Utilities\util</Filter>
+    </ClInclude>
+    <ClInclude Include="vdm_ctx\vdm_ctx.hpp">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="driver.hpp">
+      <Filter>Utilities\drv</Filter>
+    </ClInclude>
+    <ClInclude Include="client.h">
+      <Filter>LoadFile\Client</Filter>
+    </ClInclude>
+    <ClInclude Include="cryptography.h">
+      <Filter>LoadFile\Cryptography</Filter>
+    </ClInclude>
+    <ClInclude Include="request.h">
+      <Filter>LoadFile\Request</Filter>
+    </ClInclude>
+    <ClInclude Include="xorstr.h">
+      <Filter>LoadFile\Cryptography</Filter>
+    </ClInclude>
+    <ClInclude Include="mapper.h">
+      <Filter>mapper</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <MASM Include="io.asm">
+      <Filter>Utilities\drv</Filter>
+    </MASM>
+  </ItemGroup>
+</Project>

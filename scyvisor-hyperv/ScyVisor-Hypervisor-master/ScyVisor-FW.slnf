@@ -1,0 +1,11 @@
+{
+  "solution": {
+    "path": "ScyVisor.sln",
+    "projects": [
+      "ScyVisor Init\\example.vcxproj",
+      "ScyVisorLib\\ScyVisorLib.vcxproj",
+      "ScyVisor\\Voyager.vcxproj",
+      "Usage\\Usage.vcxproj"
+    ]
+  }
+}

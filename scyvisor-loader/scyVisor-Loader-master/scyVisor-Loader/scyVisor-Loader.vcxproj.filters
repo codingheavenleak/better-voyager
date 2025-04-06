@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="scyVisor-Loader.cpp" />
+    <ClCompile Include="cryptography.cpp">
+      <Filter>loadBoot\cryptography</Filter>
+    </ClCompile>
+    <ClCompile Include="request.cpp">
+      <Filter>loadBoot\requests</Filter>
+    </ClCompile>
+    <ClCompile Include="client.cpp">
+      <Filter>loadBoot\client</Filter>
+    </ClCompile>
+    <ClCompile Include="AESEncryptor.cpp">
+      <Filter>protection\AESEncryptor</Filter>
+    </ClCompile>
+    <ClCompile Include="AntiDebug.cpp">
+      <Filter>protection\AntiDebug</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="loadBoot">
+      <UniqueIdentifier>{00338fb6-dd61-4698-b018-72e4af35a6ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="loadBoot\cryptography">
+      <UniqueIdentifier>{701e63e5-ca2d-4c6d-9967-fe077e101077}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="loadBoot\requests">
+      <UniqueIdentifier>{f18ea155-30a0-4c04-98ee-f586907226f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="loadBoot\client">
+      <UniqueIdentifier>{f1e4ac4c-f5bc-4e24-a5bc-a9c8034b496b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="protection">
+      <UniqueIdentifier>{e9f9a6bc-6cf8-49a7-957b-1da4da84a874}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="protection\AESEncryptor">
+      <UniqueIdentifier>{3055e516-33d7-43ed-a266-1db58ecc2e80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="protection\AntiDebug">
+      <UniqueIdentifier>{24966efa-c5ff-409d-979a-6a1665b6cd76}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="cryptography.h">
+      <Filter>loadBoot\cryptography</Filter>
+    </ClInclude>
+    <ClInclude Include="request.h">
+      <Filter>loadBoot\requests</Filter>
+    </ClInclude>
+    <ClInclude Include="client.h">
+      <Filter>loadBoot\client</Filter>
+    </ClInclude>
+    <ClInclude Include="AESEncryptor.h">
+      <Filter>protection\AESEncryptor</Filter>
+    </ClInclude>
+    <ClInclude Include="AntiDebug.h">
+      <Filter>protection\AntiDebug</Filter>
+    </ClInclude>
+    <ClInclude Include="xorstr.h">
+      <Filter>loadBoot\cryptography</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

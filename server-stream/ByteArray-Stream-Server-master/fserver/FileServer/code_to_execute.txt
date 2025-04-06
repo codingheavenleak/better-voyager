@@ -1,0 +1,7 @@
+curl -X POST http://localhost:3000/health
+curl -X POST http://localhost:3000/get-jwt
+curl -X POST http://localhost:3000/authorize-builder-start
+curl -X POST http://localhost:3000/builder-start
+curl -X POST http://localhost:3000/authorize-bytearray-start
+curl -X POST http://localhost:3000/bytearray-start
+curl -X POST http://localhost:3000/get-array

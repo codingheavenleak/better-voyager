@@ -1,0 +1,63 @@
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">14.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+    <Name>FileServer</Name>
+    <RootNamespace>FileServer</RootNamespace>
+    <SaveNodeJsSettingsInProjectFile>True</SaveNodeJsSettingsInProjectFile>
+  </PropertyGroup>
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>3a7df8a9-a233-4235-9f27-dcdaccb6075e</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <StartupFile>
+    </StartupFile>
+    <StartWebBrowser>False</StartWebBrowser>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>D:\Coding\ScyVisor SaaS Project\ByteArray Stream Server\server\api\server</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <ProjectTypeGuids>{3AF33F2E-1136-4D97-BBB7-1795711AC8B8};{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}</ProjectTypeGuids>
+    <StartWebBrowser>False</StartWebBrowser>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="code_to_execute.txt" />
+    <Content Include="package-lock.json" />
+    <Content Include="package.json" />
+    <Content Include="server\Auth\authorize-builder-finish.js" />
+    <Content Include="server\Auth\authorize-builder-start.js" />
+    <Content Include="server\Auth\authorize-bytearray-finish.js" />
+    <Content Include="server\Auth\authorize-bytearray-start.js" />
+    <Content Include="server\Auth\run.bat" />
+    <Content Include="server\builder-finish.js" />
+    <Content Include="server\builder-start.js" />
+    <Content Include="server\bytearray-finish.js" />
+    <Content Include="server\bytearray-start.js" />
+    <Content Include="server\ed25519-seed.key" />
+    <Content Include="server\encrypt-key.js" />
+    <Content Include="server\get-array-finish.js" />
+    <Content Include="server\get-array.js" />
+    <Content Include="server\get-jwt.js" />
+    <Content Include="server\private.pem" />
+    <Content Include="server\public.pem" />
+    <Content Include="server\run.bat" />
+    <Content Include="server\send-privatekey.js" />
+    <Content Include="server\server.js" />
+    <Content Include="server\Stream\boot.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="server\" />
+    <Folder Include="server\Auth\" />
+    <Folder Include="server\Stream\" />
+  </ItemGroup>
+  <Import Project="$(VSToolsPath)\Node.js Tools\Microsoft.NodejsToolsV2.targets" />
+</Project>

@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Hv">
+      <UniqueIdentifier>{b2a1a7d7-f65e-40e6-83d9-2012e9f90179}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Bootmgfw">
+      <UniqueIdentifier>{10ff6f81-870d-4930-a79e-9938e65ca378}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Payload">
+      <UniqueIdentifier>{9cfb9a79-820f-4e14-975c-a37da76efdcc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utilities">
+      <UniqueIdentifier>{3056299a-7c1a-4408-a270-5f4b0b540909}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Winload">
+      <UniqueIdentifier>{d573ab61-db8f-449e-9b3b-361055eb8d6d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="debug.c">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils.c">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="InlineHook.c">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="PayLoad.c">
+      <Filter>Payload</Filter>
+    </ClCompile>
+    <ClCompile Include="hvLoader.c">
+      <Filter>Hv</Filter>
+    </ClCompile>
+    <ClCompile Include="Hv.c">
+      <Filter>Hv</Filter>
+    </ClCompile>
+    <ClCompile Include="BootMgfw.c">
+      <Filter>Bootmgfw</Filter>
+    </ClCompile>
+    <ClCompile Include="WinLoad.c">
+      <Filter>Winload</Filter>
+    </ClCompile>
+    <ClCompile Include="UefiMain.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="debug.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="globals.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="InlineHook.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="PayLoad.h">
+      <Filter>Payload</Filter>
+    </ClInclude>
+    <ClInclude Include="PayloadBytes.h">
+      <Filter>Payload</Filter>
+    </ClInclude>
+    <ClInclude Include="hvLoader.h">
+      <Filter>Hv</Filter>
+    </ClInclude>
+    <ClInclude Include="Hv.h">
+      <Filter>Hv</Filter>
+    </ClInclude>
+    <ClInclude Include="BootMgfw.h">
+      <Filter>Bootmgfw</Filter>
+    </ClInclude>
+    <ClInclude Include="PagingTables.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="WinLoad.h">
+      <Filter>Winload</Filter>
+    </ClInclude>
+    <ClInclude Include="ntdef.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

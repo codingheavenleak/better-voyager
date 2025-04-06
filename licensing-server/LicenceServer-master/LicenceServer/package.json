@@ -1,0 +1,23 @@
+{
+    "name": "licence-server",
+    "version": "0.0.0",
+    "description": "LicenceServer",
+    "main": "server.jms",
+    "type": "module",
+    "author": {
+        "name": ""
+    },
+    "dependencies": {
+        "@cryptlex/lexactivator": "^3.31.2",
+        "@supabase/supabase-js": "^2.48.1",
+        "axios": "^1.7.9",
+        "chalk": "^5.4.1",
+        "dotenv": "^16.4.7",
+        "express": "^4.21.2",
+        "http": "^0.0.1-security"
+    },
+    "devDependencies": {
+        "eslint": "^8.21.0"
+    },
+    "eslintConfig": {}
+}

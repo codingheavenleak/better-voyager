@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="comm">
+      <UniqueIdentifier>{75a3ef30-a631-46d1-85f6-0b7c57b4dbe4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sys">
+      <UniqueIdentifier>{e5620523-a0d9-4b6b-ab0c-652e27f16ac4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="global">
+      <UniqueIdentifier>{3e02ecec-f28e-4d06-a043-553fc5caf381}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="comm\r0">
+      <UniqueIdentifier>{9eabc1c5-6a50-4c76-9e6c-d37e1ae6de73}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="libScyHV.cpp">
+      <Filter>comm</Filter>
+    </ClCompile>
+    <ClCompile Include="libScyHV_globals.cpp">
+      <Filter>sys</Filter>
+    </ClCompile>
+    <ClCompile Include="sys.cpp">
+      <Filter>sys</Filter>
+    </ClCompile>
+    <ClCompile Include="lic.cpp">
+      <Filter>comm</Filter>
+    </ClCompile>
+    <ClCompile Include="r0.cpp">
+      <Filter>comm\r0</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="libScyHV.hpp">
+      <Filter>comm</Filter>
+    </ClInclude>
+    <ClInclude Include="structs.h">
+      <Filter>sys</Filter>
+    </ClInclude>
+    <ClInclude Include="sys.h">
+      <Filter>sys</Filter>
+    </ClInclude>
+    <ClInclude Include="util\nt.hpp">
+      <Filter>sys</Filter>
+    </ClInclude>
+    <ClInclude Include="util\util.hpp">
+      <Filter>sys</Filter>
+    </ClInclude>
+    <ClInclude Include="ScyVisor.h">
+      <Filter>global</Filter>
+    </ClInclude>
+    <ClInclude Include="lic.h">
+      <Filter>comm</Filter>
+    </ClInclude>
+    <ClInclude Include="r0.hpp">
+      <Filter>comm\r0</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <MASM Include="comm.asm">
+      <Filter>global</Filter>
+    </MASM>
+    <MASM Include="io.asm">
+      <Filter>comm\r0</Filter>
+    </MASM>
+  </ItemGroup>
+</Project>
